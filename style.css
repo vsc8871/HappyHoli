@@ -145,11 +145,16 @@ h4 {
 
 }
 
-
+@media only screen and (min-width: 330px) {
+    li {
+        font-size: 20px;
+        background-size: 400px 280px;
+    }
+}
 
 @media only screen and (min-width: 400px) {
     li {
         font-size: 20px;
-        background-size: 400px 200px;
+        background-size: 400px 280px;
     }
 }
